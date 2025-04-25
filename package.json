@@ -1,7 +1,7 @@
 {
 	"name": "sense-device-identity-js",
 	"version": "1.0.0",
-	"description": "A project for generating and managing device information.",
+	"description": "The most accurate device intelligence platform",
 	"main": "src/index.ts",
 	"scripts": {
 		"build": "rm -rf dist && rollup -c --environment BUILD:dist",
@@ -16,7 +16,15 @@
 		"url": "https://github.com/yourusername/sense.git"
 	},
 	"keywords": [
-		"identification"
+		"device fingerprint",
+		"fraud detection",
+		"sense os",
+		"device intelligence",
+		"browser fingerprint",
+		"sense js",
+		"device js",
+		"device identity js",
+		"device identity"
 	],
 	"author": "Sense OS",
 	"license": "MIT",
