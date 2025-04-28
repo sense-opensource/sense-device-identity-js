@@ -55,9 +55,20 @@ notice how the visitor identifier remains the same in spite of all these changes
 
 #### MIT license : 
 
+Sense OS is available under the <a href="https://github.com/sense-opensource/sense-device-identity-js/blob/main/LICENSE"> MIT license </a>
+
 #### Contributors code of conduct : 
+
+Thank you for your interest in contributing to this project! We welcome all contributions and are excited to have you join our community. Please read these <a href="https://github.com/sense-opensource/sense-device-identity-js/blob/main/code_of_conduct.md"> code of conduct </a> to ensure a smooth collaboration.
 
 #### Where you can get support :     
 ![Gmail](https://img.shields.io/badge/Gmail-D14836?logo=gmail&logoColor=white)       product@getsense.co 
 
-#### Contributing guidelines :
+Public Support:
+For questions, bug reports, or feature requests, please use the Issues and Discussions sections on our repository. This helps the entire community benefit from shared knowledge and solutions.
+
+Community Chat:
+Join our Discord server (link) to connect with other developers, ask questions in real-time, and share your feedback on Sense.
+
+Interested in contributing to Sense?
+Please review our <a href="https://github.com/sense-opensource/sense-device-identity-js/blob/main/CONTRIBUTING.md"> Contribution Guidelines </a> to learn how to get started, submit pull requests, or run the project locally. We encourage you to read these guidelines carefully before making any contributions. Your input helps us make Sense better for everyone!
