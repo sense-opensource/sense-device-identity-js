@@ -1,4 +1,4 @@
-# sense-device-identity
+# sense-device-identity-js
 <h1 align="center">Understanding User Intent : Sense</h1>
 
 <p align="center" width="100%">
