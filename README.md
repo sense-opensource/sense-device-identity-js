@@ -2,13 +2,20 @@
 <h1 align="center">Understanding User Intent : Sense</h1>
 
 <p align="center" width="100%">
-<img width="9%" src="https://custom-icon-badges.demolab.com/github/license/denvercoder1/custom-icon-badges?logo=law"> <img width="12%" src="https://custom-icon-badges.demolab.com/github/last-commit/DenverCoder1/custom-icon-badges?logo=history&logoColor=white"> <img width="10%" src="https://custom-icon-badges.demolab.com/github/issues-raw/DenverCoder1/custom-icon-badges?logo=issue"> <img width="9%" src="https://custom-icon-badges.demolab.com/github/actions/workflow/status/DenverCoder1/custom-icon-badges/ci.yml?branch=main&logo=check-circle-fill&logoColor=white"> 
+ <a href="https://github.com/sense-opensource/sense-device-identity-js/blob/main/LICENSE">
+    <img width="9%" src="https://custom-icon-badges.demolab.com/github/license/denvercoder1/custom-icon-badges?logo=law">
+</a> 
+<img width="12%" src="https://custom-icon-badges.demolab.com/github/last-commit/DenverCoder1/custom-icon-badges?logo=history&logoColor=white"> 
+<img width="10%" src="https://custom-icon-badges.demolab.com/github/issues-raw/DenverCoder1/custom-icon-badges?logo=issue"> 
+<img width="9%" src="https://custom-icon-badges.demolab.com/github/actions/workflow/status/DenverCoder1/custom-icon-badges/ci.yml?branch=main&logo=check-circle-fill&logoColor=white"> 
 </p>
 
 <h2 align="center">Welcome to Sense’s open source repository</h2>
 
 <p align="center" width="100%">  
-<img width="4.5%" src="https://custom-icon-badges.demolab.com/badge/Fork-orange.svg?logo=fork"> <img width="4.5%" src="https://custom-icon-badges.demolab.com/badge/Star-yellow.svg?logo=star"> <img width="6.5%" src="https://custom-icon-badges.demolab.com/badge/Commit-green.svg?logo=git-commit&logoColor=fff"> 
+<img width="4.5%" src="https://custom-icon-badges.demolab.com/badge/Fork-orange.svg?logo=fork"> 
+<img width="4.5%" src="https://custom-icon-badges.demolab.com/badge/Star-yellow.svg?logo=star"> 
+<img width="6.5%" src="https://custom-icon-badges.demolab.com/badge/Commit-green.svg?logo=git-commit&logoColor=fff"> 
 </p>
 
 <p style="text-align:center;"> 
@@ -20,8 +27,8 @@
 
 <p align="center"> Sense’s real time demo : https://pro.getsense.co/
 
-*** Try visiting the same page in an incognito mode or switch on the VPN and 
-notice how the visitor identifier remains the same in spite of all these changes!*** 
+**Try visiting the same page in an incognito mode or switch on the VPN and 
+notice how the visitor identifier remains the same in spite of all these changes!**
 
 <h3 align="center">Getting started with Sense </h3>
 
@@ -54,25 +61,3 @@ notice how the visitor identifier remains the same in spite of all these changes
 ![Gmail](https://img.shields.io/badge/Gmail-D14836?logo=gmail&logoColor=white)       product@getsense.co 
 
 #### Contributing guidelines :
-
-#### What's New : 
-
-[02/24/2025]: Face parameters update  
-```
-We’ve trained the model for an increased accuracy of 94%.   
-
-Here’s the installation steps : 
-
-1. Click on the download link  
-2. Download the model file and push it to the file directory  
-3. Run the file file  
-4. Restart the docker  
-
-```
-[08/27/2024]: User behavior added signals 
-```
-A new set of signals that track the user behaviour data has been 
-added to the code. These signals analyse the typing speed and the 
-duration between letter clicks on the keyboard 
-
-```
