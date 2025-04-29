@@ -198,6 +198,8 @@ footer{background-color: #53389e;padding: 20px 0;}
 .flex-footer{display: flex;justify-content: space-between;align-items: center;color: #fff;}
 .social-icons{display: flex;gap: 12px;align-items: center;}
 .social-icons a{display: flex;}
+.code-highlight { color: #CE9178 !important; }
+
 @media screen and (max-width: 1400px) {
 	.container {
 		max-width: 1280px;
