@@ -6,7 +6,6 @@
     <img width="9%" src="https://custom-icon-badges.demolab.com/github/license/denvercoder1/custom-icon-badges?logo=law">
 </a> 
 <img width="12%" src="https://custom-icon-badges.demolab.com/github/last-commit/DenverCoder1/custom-icon-badges?logo=history&logoColor=white"> 
-<img width="10%" src="https://custom-icon-badges.demolab.com/github/issues-raw/DenverCoder1/custom-icon-badges?logo=issue"> 
 <img width="9%" src="https://custom-icon-badges.demolab.com/github/actions/workflow/status/DenverCoder1/custom-icon-badges/ci.yml?branch=main&logo=check-circle-fill&logoColor=white"> 
 </p>
 
@@ -48,7 +47,7 @@ npm run build
         .......
 
         // Setting allowGeoLocation to true prompts the browser to ask for the user's location 
-        
+
         Sense.init({allowGeoLocation : false}).then(data => {
             const { senseId, getDeviceDetails, score } = data;
 
