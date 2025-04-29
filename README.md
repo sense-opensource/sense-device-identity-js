@@ -29,12 +29,13 @@
 
 <h3 align="center">Getting started with Sense </h3>
 
+#### Bash
 ```bash
-# Run the playground locally
-npm run playground
+    # Run the playground locally
+    npm run playground
 
-# Build the project and generate the dist folder
-npm run build
+    # Build the project and generate the dist folder
+    npm run build
 
 ```
 ### JS Integration
@@ -84,10 +85,13 @@ Thank you for your interest in contributing to this project! We welcome all cont
 ![Gmail](https://img.shields.io/badge/Gmail-D14836?logo=gmail&logoColor=white)       product@getsense.co 
 
 Public Support:
+
 For questions, bug reports, or feature requests, please use the Issues and Discussions sections on our repository. This helps the entire community benefit from shared knowledge and solutions.
 
 Community Chat:
+
 Join our Discord server (link) to connect with other developers, ask questions in real-time, and share your feedback on Sense.
 
 Interested in contributing to Sense?
+
 Please review our <a href="https://github.com/sense-opensource/sense-device-identity-js/blob/main/CONTRIBUTING.md"> Contribution Guidelines </a> to learn how to get started, submit pull requests, or run the project locally. We encourage you to read these guidelines carefully before making any contributions. Your input helps us make Sense better for everyone!
