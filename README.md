@@ -1,12 +1,10 @@
-# sense-device-identity-js
-<h1 align="center">Understanding User Intent : Sense</h1>
+<h1 align="center">Sense Device Identity JS</h1>
 
 <p align="center" width="100%">
  <a href="https://github.com/sense-opensource/sense-device-identity-js/blob/main/LICENSE">
     <img width="9%" src="https://custom-icon-badges.demolab.com/github/license/denvercoder1/custom-icon-badges?logo=law">
 </a> 
 <img width="12%" src="https://custom-icon-badges.demolab.com/github/last-commit/DenverCoder1/custom-icon-badges?logo=history&logoColor=white"> 
-<img width="10%" src="https://custom-icon-badges.demolab.com/github/issues-raw/DenverCoder1/custom-icon-badges?logo=issue"> 
 <img width="9%" src="https://custom-icon-badges.demolab.com/github/actions/workflow/status/DenverCoder1/custom-icon-badges/ci.yml?branch=main&logo=check-circle-fill&logoColor=white"> 
 </p>
 
@@ -27,14 +25,37 @@
 
 <p align="center"> Sense’s real time demo : https://pro.getsense.co/
 
-**Try visiting the same page in an incognito mode or switch on the VPN and 
-notice how the visitor identifier remains the same in spite of all these changes!**
+**Try visiting the same page in an incognito mode or switch on the VPN and notice how the visitor identifier remains the same in spite of all these changes!**
 
 <h3 align="center">Getting started with Sense </h3>
 
 ```
-(code snippet)  
+# Run the playground locally
+npm run playground
+
+
+# Build the project and generate the dist folder
+npm run build
+
+
+# JS Integration
+
+        <!-- Include the Sense library -->
+        <script src="./sense.js"></script>
+
+        // 🌎 Setting allowGeoLocation to true prompts the browser to ask for the user's location
+        Sense.init({ allowGeoLocation: false })
+        .then((data) => {
+            const { senseId, getDeviceDetails, score } = data;
+
+            // ✅ Your code logic here
+        })
+        .catch((error) => {
+            console.error(error.message); // ❌ Handle initialization error
+        });
+
 ``` 
+
 <h3 align="center">Run this code here : (sandbox environment to check and verify the code)</h3>
 
 <h4 align="center">Plug and play, in just 3 steps</h3>  

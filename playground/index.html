@@ -50,11 +50,11 @@
                         <div class="details-display-container" id="result">
                             <div class="sense-id-txt">
                                 <div class="">Sense ID:</div>
-                                <div id="sense-id">154fb69-64419ac-ddb3ffU-82f83b7</div>
+                                <div id="sense-id">....</div>
                             </div>
                             <div class="sense-conf-score">
                                 <div class="">Confidence Scroe</div>
-                                <div id="conf-score">0.5</div>
+                                <div id="conf-score">....</div>
                             </div>
                         </div>
                     </div>  
@@ -85,6 +85,7 @@
             const resultDiv = document.getElementById('result');
             const sense = Sense.init({allowGeoLocation : false}).then(data => {
                 senseId.innerText = data?.getDeviceId;
+                confScore.innerText = data?.score;
                 const senseResult = document.createElement('pre');
                 senseResult.innerHTML = JSON.stringify(data, null, 2);
                 resultDiv.appendChild(senseResult);
