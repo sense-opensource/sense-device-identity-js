@@ -64,7 +64,8 @@ export const init = async (senseInfo: SenseInfo) => {
 	try {
 		return {
 			getDeviceDetails: data,
-			getDeviceId: x64hash128(JSON.stringify(encodedMeta))
+			senseId: x64hash128(JSON.stringify(encodedMeta)),
+			score : 0.5
 		};
 	} catch (error) {
 		return null; // Return null in case of any error
