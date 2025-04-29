@@ -1,5 +1,5 @@
-# sense-device-identity-js
-<h1 align="center">Understanding User Intent : Sense</h1>
+
+<h1 align="center">Sense Device Identity JS</h1>
 
 <p align="center" width="100%">
  <a href="https://github.com/sense-opensource/sense-device-identity-js/blob/main/LICENSE">
@@ -44,6 +44,7 @@ npm run build
 
         <script src="./sense.js"></script>
 
+        ............
         .......
 
         // Setting allowGeoLocation to true prompts the browser to ask for the user's location 
@@ -53,9 +54,10 @@ npm run build
 
             //  Code Logic here
         }).catch(error => {
-            console.log(error.message);
+            console.log(error.message); // Error
         });
 ``` 
+
 <h3 align="center">Run this code here : (sandbox environment to check and verify the code)</h3>
 
 <h4 align="center">Plug and play, in just 3 steps</h3>  
