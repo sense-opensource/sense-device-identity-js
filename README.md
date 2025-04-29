@@ -1,4 +1,3 @@
-
 <h1 align="center">Sense Device Identity JS</h1>
 
 <p align="center" width="100%">
@@ -42,20 +41,20 @@ npm run build
 
 # JS Integration
 
+        <!-- Include the Sense library -->
         <script src="./sense.js"></script>
 
-        ............
-        .......
-
-        // Setting allowGeoLocation to true prompts the browser to ask for the user's location 
-
-        Sense.init({allowGeoLocation : false}).then(data => {
+        // 🌎 Setting allowGeoLocation to true prompts the browser to ask for the user's location
+        Sense.init({ allowGeoLocation: false })
+        .then((data) => {
             const { senseId, getDeviceDetails, score } = data;
 
-            //  Code Logic here
-        }).catch(error => {
-            console.log(error.message); // Error
+            // ✅ Your code logic here
+        })
+        .catch((error) => {
+            console.error(error.message); // ❌ Handle initialization error
         });
+
 ``` 
 
 <h3 align="center">Run this code here : (sandbox environment to check and verify the code)</h3>
