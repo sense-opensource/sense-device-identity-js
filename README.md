@@ -29,31 +29,29 @@
 
 <h3 align="center">Getting started with Sense </h3>
 
-```
+```bash
 # Run the playground locally
 npm run playground
-
 
 # Build the project and generate the dist folder
 npm run build
 
+```
+### JS Integration
+```js
+    // Include the Sense library 
+    <script src="./sense.js"></script>
 
-# JS Integration
+    // 🌎 Setting allowGeoLocation to true prompts the browser to ask for the user's location
+    Sense.init({ allowGeoLocation: false })
+    .then((data) => {
+        const { senseId, getDeviceDetails, score } = data;
 
-        <!-- Include the Sense library -->
-        <script src="./sense.js"></script>
-
-        // 🌎 Setting allowGeoLocation to true prompts the browser to ask for the user's location
-        Sense.init({ allowGeoLocation: false })
-        .then((data) => {
-            const { senseId, getDeviceDetails, score } = data;
-
-            // ✅ Your code logic here
-        })
-        .catch((error) => {
-            console.error(error.message); // ❌ Handle initialization error
-        });
-
+        // ✅ Your code logic here
+    })
+    .catch((error) => {
+        console.error(error.message); // ❌ Handle initialization error
+    });
 ``` 
 
 <h3 align="center">Run this code here : (sandbox environment to check and verify the code)</h3>
