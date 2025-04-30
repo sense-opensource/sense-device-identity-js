@@ -46,7 +46,7 @@
 ### JS Integration
 ```js
     // Include the Sense library 
-    <script src="https://cdn.getsense.co/js/v1/sense-opensource"></script>
+    <script src="https://cdn.getsense.co/js/v1/senseos/sense-device-identity-js"></script>
 
     // 🌎 Setting allowGeoLocation to true prompts the browser to ask for the user's location
     SenseOS.init({ allowGeoLocation: false })
