@@ -27,7 +27,7 @@ interface BrowserData {
  * Function to get all Sense details.
  * @returns An object containing all the details (battery, zone, language, network, Bluetooth).
  */
-export const init = async (senseInfo: SenseInfo) => {
+export const initSDK = async (senseInfo: SenseInfo) => {
 
 	/**
 	 * Metadata representing the client's runtime environment importent browser informaion,
@@ -63,7 +63,7 @@ export const init = async (senseInfo: SenseInfo) => {
 	const encodedMeta = getEncodedData(JSON.stringify(deviceMetaInfo));
 	try {
 		return {
-			getDeviceDetails: data,
+			getSenseDetails: data,
 			senseId: x64hash128(JSON.stringify(encodedMeta)),
 			score : 0.5
 		};
