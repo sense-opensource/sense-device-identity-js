@@ -50,7 +50,7 @@
     <script src="https://cdn.getsense.co/js/v1/senseos/sense-device-identity-js"></script>
 
     // 🌎 Setting allowGeoLocation to true prompts the browser to ask for the user's location
-    SenseOS.init({ allowGeoLocation: false })
+    SenseOS.initSDK({ allowGeoLocation: false })
     .then((data) => {
         const { senseId, getSenseDetails, score } = data;
 
