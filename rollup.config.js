@@ -8,9 +8,9 @@ const commonInput = { input: 'src/index.ts' };
 const playground = {
 	...commonInput, // Entry point for the playground
 	output: {
-		file: 'playground/bundle.js', // Output bundled file
+		file: 'playground/sense.js', // Output bundled file
 		format: 'iife', // Self-invoking function for browsers
-		name: 'SenseOS', // Expose the library as a global variable named "Sense"
+		name: 'SenseOS', // Expose the library as a global variable named "SenseOS"
 	},
 	plugins: [resolve(), commonjs(), typescript()]
 };

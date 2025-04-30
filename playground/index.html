@@ -58,7 +58,7 @@
                                 <div id="conf-score">....</div>
                             </div>
                             <div class="sense-conf-score">
-                                <div class="">Device Info</div>
+                                <div class="">Sense Info</div>
                                 <pre> <div id="device-info" class="">....</div> </pre>
                             </div>
                         </div>
@@ -78,14 +78,14 @@
                 </div>
             </div>
         </footer>
-        <script src="bundle.js"></script>
+        <script src="sense.js"></script>
         <script>
             const year = document.getElementById('year-current');
             const senseId = document.getElementById('sense-id');
             const confScore = document.getElementById('conf-score')
             const senseResult = document.getElementById('device-info');
             year.innerText = new Date().getFullYear();
-            const sense = SenseOS.init({allowGeoLocation : false}).then(data => {
+            const sense = SenseOS.initSDK({allowGeoLocation : false}).then(data => {
                 senseId.innerText = data?.senseId;
                 confScore.innerText = data?.score;
                 senseResult.innerText = JSON.stringify(data?.getSenseDetails, null, 2);
