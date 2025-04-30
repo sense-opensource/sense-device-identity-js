@@ -32,22 +32,26 @@
 
 #### Bash
 ```bash
+    # Install all dependencies (including dev dependencies)
+    npm install
+    # or
+    npm i
+
     # Run the playground locally
     npm run playground
 
     # Build the project and generate the dist folder
     npm run build
-
 ```
 ### JS Integration
 ```js
     // Include the Sense library 
-    <script src="./sense.js"></script>
+    <script src="https://cdn.getsense.co/js/v1/sense-opensource"></script>
 
     // 🌎 Setting allowGeoLocation to true prompts the browser to ask for the user's location
-    Sense.init({ allowGeoLocation: false })
+    SenseOS.init({ allowGeoLocation: false })
     .then((data) => {
-        const { senseId, getDeviceDetails, score } = data;
+        const { senseId, getSenseDetails, score } = data;
 
         // ✅ Your code logic here
     })

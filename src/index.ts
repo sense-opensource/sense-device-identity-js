@@ -63,7 +63,7 @@ export const init = async (senseInfo: SenseInfo) => {
 	const encodedMeta = getEncodedData(JSON.stringify(deviceMetaInfo));
 	try {
 		return {
-			getDeviceDetails: data,
+			getSenseDetails: data,
 			senseId: x64hash128(JSON.stringify(encodedMeta)),
 			score : 0.5
 		};

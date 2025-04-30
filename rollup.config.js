@@ -10,7 +10,7 @@ const playground = {
 	output: {
 		file: 'playground/bundle.js', // Output bundled file
 		format: 'iife', // Self-invoking function for browsers
-		name: 'Sense', // Expose the library as a global variable named "Sense"
+		name: 'SenseOS', // Expose the library as a global variable named "Sense"
 	},
 	plugins: [resolve(), commonjs(), typescript()]
 };
@@ -37,7 +37,7 @@ const dist = [
 			{
 				file: 'dist/sense.js',
 				format: 'iife', // IIFE format for browsers
-				name: 'Sense', // Global variable name for the browser
+				name: 'SenseOS', // Global variable name for the browser
 				globals: {
 					tslib: 'tslib', // Map tslib to a global variable
 				},
@@ -52,7 +52,7 @@ const dist = [
 		output: {
 			file: 'dist/sense.min.js',
 			format: 'iife', // Self-invoking function for browsers
-			name: 'Sense', // Global variable name for the browser
+			name: 'SenseOS', // Global variable name for the browser
 			globals: {
 				tslib: 'tslib', // Map tslib to a global variable
 			},
